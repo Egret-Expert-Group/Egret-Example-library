@@ -1,0 +1,23 @@
+{
+	"groups":[{
+			"keys":"ballParticle_json,ballParticle_png,firePot_png",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"ballParticle_json",
+			"type":"json",
+			"url":"assets/particle3/ballParticle.json"
+		},
+		{
+			"name":"ballParticle_png",
+			"type":"image",
+			"url":"assets/particle3/ballParticle.png"
+		},
+		{
+			"name":"firePot_png",
+			"type":"image",
+			"url":"assets/particle3/firePot.png"
+		}
+	]
+}

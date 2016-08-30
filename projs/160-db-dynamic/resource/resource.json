@@ -1,0 +1,45 @@
+{
+    "resources": [
+        {
+            "name": "bgImage",
+            "type": "image",
+            "url": "assets/bg.jpg"
+        },
+        {
+            "name": "egretIcon",
+            "type": "image",
+            "url": "assets/egret_icon.png"
+        },
+        {
+            "name": "description",
+            "type": "json",
+            "url": "config/description.json"
+        },
+        {
+            "name": "texture_json",
+            "type": "json",
+            "url": "assets/Dragon/texture.json"
+        },
+        {
+            "name": "texture_png",
+            "type": "image",
+            "url": "assets/Dragon/texture.png"
+        },
+        {
+            "name": "skeleton_json",
+            "type": "json",
+            "url": "assets/Dragon/skeleton.json"
+        },
+ 		{
+            "name": "lark_png",
+            "type": "image",
+            "url": "assets/lark.png"
+        }
+    ],
+    "groups": [
+        {
+            "name": "preload",
+            "keys": "bgImage,egretIcon,texture_json,texture_png,skeleton_json,lark_png"
+        }
+    ]
+}

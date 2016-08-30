@@ -1,0 +1,18 @@
+{
+	"groups":[
+	{
+		"keys":"background_png,sendbtn_png",
+		"name":"preload"
+	}],
+	"resources":[
+	{
+		"name":"background_png",
+		"type":"image",
+		"url":"assets/background.png"
+	},
+	{
+		"name":"sendbtn_png",
+		"type":"image",
+		"url":"assets/sendbtn.png"
+	}]
+}

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="itemDemoSkin" minHeight="14" minWidth="100" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="18">
+	<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" verticalAlign="middle" textAlign="center" size="12" textColor="0x171515"/>
+	</e:Skin>

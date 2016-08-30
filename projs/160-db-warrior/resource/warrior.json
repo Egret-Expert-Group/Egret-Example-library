@@ -1,0 +1,25 @@
+{
+    "resources": [
+        {
+            "name": "dragonBonesData",
+            "type": "json",
+            "url": "assets/swordsman-dbdata.json"
+        },
+        {
+            "name": "textureDataA",
+            "type": "json",
+            "url": "assets/swordsman-texture.json"
+        },
+        {
+            "name": "textureA",
+            "type": "image",
+            "url": "assets/swordsman-texture.png"
+        }
+    ],
+    "groups": [
+        {
+            "name": "preload",
+            "keys": "dragonBonesData,textureDataA,textureA"
+        }
+    ]
+}

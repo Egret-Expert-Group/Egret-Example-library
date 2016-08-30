@@ -1,0 +1,28 @@
+{
+	"groups":[{
+			"keys":"cartoon-egret_00_png,cartoon-egret_01_png,cartoon-egret_02_png,cartoon-egret_03_png",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"cartoon-egret_00_png",
+			"type":"image",
+			"url":"assets/cartoon-egret_00.png"
+		},
+		{
+			"name":"cartoon-egret_01_png",
+			"type":"image",
+			"url":"assets/cartoon-egret_01.png"
+		},
+		{
+			"name":"cartoon-egret_02_png",
+			"type":"image",
+			"url":"assets/cartoon-egret_02.png"
+		},
+		{
+			"name":"cartoon-egret_03_png",
+			"type":"image",
+			"url":"assets/cartoon-egret_03.png"
+		}
+	]
+}

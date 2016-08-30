@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="mainviewSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="100%" width="100%" x="0" y="0">
+		<e:Image height="100%" width="100%" x="0" y="0" source="bg_jpg"/>
+		<e:Group height="591" width="368" x="63" y="82">
+			<e:Group height="200" width="37" x="33" y="115">
+				<e:RadioButton id="getButton" label="单选框" x="32" y="42" skinName="getButtonSkin"/>
+				<e:RadioButton id="postButton" label="单选框" x="7" y="40" skinName="postButtonSkin"/>
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Group height="581" width="100%" x="92" y="33">
+				<e:Image height="605" width="100%" x="0" y="0" source="word_bg_png" scale9Grid="16,41,333,271"/>
+				<e:Group height="585" width="100%" x="0" y="0">
+					<e:BitmapLabel id="title" x="33" y="112" font="font_fnt" text="获得GET响应" width="222" height="50" scaleX="0.6" scaleY="0.6"/>
+					<e:Scroller width="100%" height="100%" x="10" y="42" scrollPolicyH="off" scrollPolicyV="off">
+						<e:Group height="525">
+							<e:BitmapLabel id="dataTitle" x="58" y="38" text="Data" width="83" font="datafont_fnt"/>
+							<e:BitmapLabel id="argsLabel" y="48" x="68" font="datafont_fnt" text="Args:"/>
+							<e:List id="args" y="77" x="60" width="300" itemRendererSkinName="itemDemoSkin">
+								<e:layout>
+									<e:VerticalLayout gap="3"/>
+								</e:layout>
+								<e:ArrayCollection>
+									<e:Array>
+										<e:Object label="数据1"/>
+										<e:Object label="数据2"/>
+										<e:Object label="数据3"/>
+									</e:Array>
+								</e:ArrayCollection>
+							</e:List>
+							<e:BitmapLabel y="58" x="78" text="Headers:" font="datafont_fnt"/>
+							<e:List id="headers" y="87" x="70" width="300" itemRendererSkinName="itemDemoSkin" height="259">
+								<e:layout>
+									<e:VerticalLayout gap="10"/>
+								</e:layout>
+								<e:ArrayCollection>
+									<e:Array>
+										<e:Object label="数据1"/>
+										<e:Object label="数据2"/>
+										<e:Object label="数据3"/>
+									</e:Array>
+								</e:ArrayCollection>
+							</e:List>
+							<e:BitmapLabel id="origin" y="68" x="88" text="Origin:" font="datafont_fnt"/>
+							<e:Label id="originLabel" x="70" y="407" textColor="0x2A2626" size="12" height="15"/>
+							<e:BitmapLabel id="url" y="78" x="98" text="Url:" font="datafont_fnt"/>
+							<e:Label id="urlLabel" y="417" x="80" textColor="0x282424" size="12" maxWidth="300" height="15"/>
+							<e:layout>
+								<e:VerticalLayout/>
+							</e:layout>
+						</e:Group>
+					</e:Scroller>
+					<e:layout>
+						<e:VerticalLayout paddingLeft="18" paddingTop="15"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="592" width="329" x="101" y="82" touchEnabled="false" touchChildren="false">
+			<e:Image id="loading" height="76" width="76" horizontalCenter="38" verticalCenter="38" source="loading_png" anchorOffsetX="38" anchorOffsetY="38" alpha="0"/>
+			<e:BitmapLabel id="loadingLabel" horizontalCenter="22.5" verticalCenter="8" text="loading" font="font_fnt" scaleX="0.4" scaleY="0.4" anchorOffsetX="58" anchorOffsetY="22.5" alpha="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
